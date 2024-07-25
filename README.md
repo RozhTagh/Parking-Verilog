@@ -1,8 +1,10 @@
 # Parking Management System
 
-## Overview
+This Verilog project simulates a comprehensive parking management system for a university. The system prioritizes parking spaces for faculty and staff, dynamically adjusts based on the hour of the day, and provides clear outputs for the number of parked cars and available spaces.
 
-This repository contains the Verilog code for a parking management system, along with a testbench to simulate and verify its functionality. The system is designed to manage parking spaces for university and non-university vehicles, adjusting space allocation based on the time of day.
+The design includes a main module that manages parking logic and a testbench to verify and simulate the system's behavior under various scenarios. By using this system, universities can efficiently manage their parking resources, ensuring optimal space utilization and ease of access for faculty and staff.
+
+![parking image]([https://img.freepik.com/premium-vector/processor-logo-icon_617585-3379.jpg?w=1380](https://img.freepik.com/free-vector/isometric-parking-composition-with-outdoor-view-parking-lot-with-cars-laying-cash-register-booth-vector-illustration_1284-84804.jpg?w=2000&t=st=1721941591~exp=1721942191~hmac=a04a1ddaeb36ab43ede8e28708c824402a7bbebd0236a9757c586a24bf6e09a6))
 
 ## Modules
 
@@ -57,6 +59,19 @@ iverilog -o test parking_TB.v parking.v
 vvp test
 ```
 
+## Timing Analysis
+
+The module was synthesized using Quartus Prime on the Arria II GX FPGA. Timing analysis provided the following results:
+
+- **Maximum Frequency (Fmax):** 162.87 MHz
+- **Setup Time:** 5.140 ns
+- **Hold Time:** 0.327 ns
+
+These results ensure the design operates reliably at the intended clock speeds.
+
 ## Acknowledgments
 
 This project was created to manage and simulate a parking system with dynamic space allocation.
+
+## Authors
+- [Rozhin Taghizadegan](https://github.com/RozhTagh)
