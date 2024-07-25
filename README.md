@@ -4,7 +4,7 @@ This Verilog project simulates a comprehensive parking management system for a u
 
 The design includes a main module that manages parking logic and a testbench to verify and simulate the system's behavior under various scenarios. By using this system, universities can efficiently manage their parking resources, ensuring optimal space utilization and ease of access for faculty and staff.
 
-![parking image](https://img.freepik.com/free-vector/underground-car-parking-garage-with-vacant-places_107791-1635.jpg?w=1800&t=st=1721941599~exp=1721942199~hmac=c4278de22804554d2911174f715f9026f63b6b8e7d029965618a954442bdecb4)
+![parking image](https://www.freepik.com/free-vector/recreational-vehicles-road-isometric-composition-with-trailer-people-forest_4279250.htm#query=car%20parking%20lot&position=12&from_view=keyword&track=ais_user&uuid=c98bb86d-feb8-494c-b7aa-1c91f6243836)
 
 ## Modules
 
